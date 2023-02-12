@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TradeMe TestSuite" duration-ms="137216" started-at="2023-02-12T23:18:29 NZDT" finished-at="2023-02-12T23:20:47 NZDT">
+    <groups>
+    </groups>
+    <test name="carseach" duration-ms="137216" started-at="2023-02-12T23:18:29 NZDT" finished-at="2023-02-12T23:20:47 NZDT">
+      <class name="nz.co.trademe.carSearchtest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="setUp" is-config="true" duration-ms="21197" started-at="2023-02-12T23:18:30 NZDT" finished-at="2023-02-12T23:18:51 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCarSearchResults(java.lang.String, java.lang.String)[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="verifyCarSearchResults" duration-ms="14138" started-at="2023-02-12T23:18:51 NZDT" data-provider="provideCarMakeAndSearchResult" finished-at="2023-02-12T23:19:05 NZDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ferrari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Showing 43 results]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarSearchResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="5378" started-at="2023-02-12T23:19:05 NZDT" finished-at="2023-02-12T23:19:10 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="setUp" is-config="true" duration-ms="10141" started-at="2023-02-12T23:19:10 NZDT" finished-at="2023-02-12T23:19:20 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCarSearchResults(java.lang.String, java.lang.String)[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="verifyCarSearchResults" duration-ms="8748" started-at="2023-02-12T23:19:20 NZDT" data-provider="provideCarMakeAndSearchResult" finished-at="2023-02-12T23:19:29 NZDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Showing 3,514 results]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarSearchResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="2255" started-at="2023-02-12T23:19:29 NZDT" finished-at="2023-02-12T23:19:31 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="setUp" is-config="true" duration-ms="8332" started-at="2023-02-12T23:19:31 NZDT" finished-at="2023-02-12T23:19:40 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCarSearchResults(java.lang.String, java.lang.String)[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="verifyCarSearchResults" duration-ms="13525" started-at="2023-02-12T23:19:40 NZDT" data-provider="provideCarMakeAndSearchResult" finished-at="2023-02-12T23:19:53 NZDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mazda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Showing 5,922 results]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarSearchResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="4697" started-at="2023-02-12T23:19:53 NZDT" finished-at="2023-02-12T23:19:58 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="setUp" is-config="true" duration-ms="11148" started-at="2023-02-12T23:19:58 NZDT" finished-at="2023-02-12T23:20:09 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCarSearchResults(java.lang.String, java.lang.String)[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="verifyCarSearchResults" duration-ms="14567" started-at="2023-02-12T23:20:09 NZDT" data-provider="provideCarMakeAndSearchResult" finished-at="2023-02-12T23:20:24 NZDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Showing 2,700 results]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarSearchResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="4717" started-at="2023-02-12T23:20:24 NZDT" finished-at="2023-02-12T23:20:28 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="setUp" is-config="true" duration-ms="12755" started-at="2023-02-12T23:20:28 NZDT" finished-at="2023-02-12T23:20:41 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNumberOfCarMakesAvailable()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="verifyNumberOfCarMakesAvailable" duration-ms="3501" started-at="2023-02-12T23:20:41 NZDT" finished-at="2023-02-12T23:20:45 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNumberOfCarMakesAvailable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nz.co.trademe.carSearchtest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="1939" started-at="2023-02-12T23:20:45 NZDT" finished-at="2023-02-12T23:20:47 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nz.co.trademe.carSearchtest -->
+    </test> <!-- carseach -->
+  </suite> <!-- TradeMe TestSuite -->
+</testng-results>
